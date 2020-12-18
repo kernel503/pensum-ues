@@ -1,10 +1,10 @@
 import data from './data/pensum-base'
 import Columna from './Columna';
 
-const ContenedorPensum = ({ data }) => {  
+const ContenedorPensum = ({ data }) => {
   return (
     <div className="columns">
-      {data.map((columna, index) => <Columna key={index} {...columna} />)}
+      {data.map((columna, index) => <Columna key={index} columna={index} {...columna} />)}
     </div>
   )
 }

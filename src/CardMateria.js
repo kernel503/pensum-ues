@@ -1,5 +1,5 @@
-const CardMateria = ({ materia }) => {
-    const { abreviatura, aprobada } = materia
+const CardMateria = ({ materia, columna }) => {
+    const { abreviatura, aprobada, identificador } = materia
     let inputCheckboxAprobada;
 
     if (aprobada) {
@@ -7,6 +7,12 @@ const CardMateria = ({ materia }) => {
     }
     else {
         inputCheckboxAprobada = <input type="checkbox" />
+    }
+
+    const onClickCheckbox = (identificador) => (event) => {
+        console.log(event)
+        console.log(identificador)
+        console.log(columna)
     }
 
     return (
@@ -21,7 +27,7 @@ const CardMateria = ({ materia }) => {
                     <i className="hoverTarget fas fa-eye"></i>
                 </p>
                 <p className="card-footer-item mx-0 my-0 py-3">
-                    <label className="checkbox">
+                    <label className="checkbox" onChange={onClickCheckbox(columna)}>
                         {inputCheckboxAprobada}
                     </label>
                 </p>

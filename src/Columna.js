@@ -1,9 +1,10 @@
 import CardMateria from './CardMateria';
 
-const Columna = ({ ciclo, materias }) => {    
+const Columna = ({ ciclo, materias,columna }) => {
     return (
         <div className="column">
-            {materias.map((cardMateria) => <CardMateria key={cardMateria.identificador} materia={cardMateria} />)}
+            <p className='has-text-weight-bold has-text-centered'>{ciclo}</p>
+            {materias.map((cardMateria,index) => <CardMateria key={cardMateria.identificador} columna={columna} materia={cardMateria} />)}
         </div>
     )
 }

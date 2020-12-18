@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {
-        ciclo: 1,
+        ciclo: 'I',
         materias: [
             {
                 identificador: 1,
@@ -38,7 +38,7 @@ export default [
         ]
     },
     {
-        ciclo: 2,
+        ciclo: 'II',
         materias: [
             {
                 identificador: 5,
@@ -83,7 +83,7 @@ export default [
         ]
     },
     {
-        ciclo: 3,
+        ciclo: 'III',
         materias: [
             {
                 identificador: 5,
@@ -128,7 +128,7 @@ export default [
         ]
     },
     {
-        ciclo: 4,
+        ciclo: 'IV',
         materias: [
             {
                 identificador: 5,
@@ -173,7 +173,7 @@ export default [
         ]
     },
     {
-        ciclo: 5,
+        ciclo: 'V',
         materias: [
             {
                 identificador: 5,
@@ -218,7 +218,7 @@ export default [
         ]
     },
     {
-        ciclo: 6,
+        ciclo: 'VI',
         materias: [
             {
                 identificador: 5,
@@ -263,7 +263,7 @@ export default [
         ]
     },
     {
-        ciclo: 7,
+        ciclo: 'VII',
         materias: [
             {
                 identificador: 5,
@@ -308,7 +308,7 @@ export default [
         ]
     },
     {
-        ciclo: 8,
+        ciclo: 'VIII',
         materias: [
             {
                 identificador: 5,
@@ -353,7 +353,7 @@ export default [
         ]
     },
     {
-        ciclo: 9,
+        ciclo: 'IX',
         materias: [
             {
                 identificador: 5,
@@ -398,7 +398,7 @@ export default [
         ]
     },
     {
-        ciclo: 10,
+        ciclo: 'X',
         materias: [
             {
                 identificador: 5,
