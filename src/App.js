@@ -1,15 +1,15 @@
 import data from './data/pensum-base'
+import Columna from './Columna';
 
-console.log(data);
-const ContenedorPensum = ({ data }) => {
+const ContenedorPensum = ({ data }) => {  
   return (
-    <div className="columns is-mobile m-2">
-
+    <div className="columns">
+      {data.map((columna, index) => <Columna key={index} {...columna} />)}
     </div>
   )
 }
 
-function App() {
+const App = () => {
   return (
     <div className="content p-5">
       <ContenedorPensum
