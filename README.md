@@ -5,6 +5,7 @@ Carga académica para la carrera Ingeniería de Sistemas Informáticos - UES [Pe
 ### Funcionalidades faltantes
 
 * [ ] Calcular el CUM
+* [ ] Separar las materias eléctivas por ciclo
 * [ ] Implementación para otras carreras
 
 ```
