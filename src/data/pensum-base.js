@@ -436,4 +436,105 @@ export default [
             },
         ]
     },
+    {
+        ciclo: 'Eléctivas',
+        materias: [
+            {
+                identificador: 'A',
+                unidadValorativa: 4,
+                abreviatura: 'TPI115',
+                nombreMateria: 'Técnicas de Programación para Internet',
+                aprobada: false,
+                requisito: [17, 18],
+            },
+            {
+                identificador: 'B',
+                unidadValorativa: 4,
+                abreviatura: 'TOO15',
+                nombreMateria: 'Tecnología Orientada a Objetos',
+                aprobada: false,
+                requisito: [18]
+            },
+            {
+                identificador: 'C',
+                unidadValorativa: 4,
+                abreviatura: 'PDM115',
+                nombreMateria: 'Programación para Dispositivos Móviles',
+                aprobada: false,
+                requisito: [18, 22]
+            },
+            {
+                identificador: 'D',
+                unidadValorativa: 4,
+                abreviatura: 'TDS15',
+                nombreMateria: 'Técnicas de Simulación',
+                aprobada: false,
+                requisito: [24, 29]
+            },
+            {
+                identificador: 'E',
+                unidadValorativa: 4,
+                abreviatura: 'COS215',
+                nombreMateria: 'Comunicaciones II',
+                aprobada: false,
+                requisito: [35]
+            },
+            {
+                identificador: 'F',
+                unidadValorativa: 4,
+                abreviatura: 'EBB115',
+                nombreMateria: 'Sistemas Embebidos I',
+                aprobada: false,
+                requisito: [22, 26]
+            },
+            {
+                identificador: 'G',
+                unidadValorativa: 4,
+                abreviatura: 'SIF115',
+                nombreMateria: 'Seguridad Informática',
+                aprobada: false,
+                requisito: [35, 38]
+            },
+            {
+                identificador: 'H',
+                unidadValorativa: 4,
+                abreviatura: 'CET115',
+                nombreMateria: 'Comercio Electrónico',
+                aprobada: false,
+                requisito: [33, 'A']
+            },
+            {
+                identificador: 'I',
+                unidadValorativa: 4,
+                abreviatura: 'AUS115',
+                nombreMateria: 'Auditoría de Sistemas',
+                aprobada: false,
+                requisito: [43]
+            },
+            {
+                identificador: 'J',
+                unidadValorativa: 4,
+                abreviatura: 'IGF115',
+                nombreMateria: 'Ingeniería de Software',
+                aprobada: false,
+                requisito: [33, 22]
+            },
+            {
+                identificador: 'K',
+                unidadValorativa: 4,
+                abreviatura: 'IBD15',
+                nombreMateria: 'Implementación de Bases de Datos',
+                aprobada: false,
+                requisito: [42]
+            },
+            {
+                identificador: 'L',
+                unidadValorativa: 4,
+                abreviatura: 'SGG',
+                nombreMateria: 'Sistemas de Información Geográficos',
+                aprobada: false,
+                requisito: [24, 29]
+            },
+        ]
+    },
 ];

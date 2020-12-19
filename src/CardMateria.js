@@ -64,7 +64,7 @@ const CardMateria = ({ materia, materiaFocus, setMateriaFocus }) => {
     }
 
     return (
-        <div className="card mt-2">
+        <div className="card mt-2" style={{width: '100px'}}>
             <div
                 className={"hoverTarget card-content py-3 px-0 " + backgroundContent}
                 onClick={onClickContentCard(materia)}>
