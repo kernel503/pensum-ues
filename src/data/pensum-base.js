@@ -75,7 +75,7 @@ export default [
             {
                 identificador: 9,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
+                abreviatura: 'HSE115',
                 nombreMateria: 'Historia Social y Económica de El Salvador y C.A.',
                 aprobada: false,
                 requisito: [4]

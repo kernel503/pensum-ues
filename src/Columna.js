@@ -1,10 +1,18 @@
+import React from 'react'
 import CardMateria from './CardMateria';
 
-const Columna = ({ ciclo, materias, columna }) => {
+const Columna = ({ ciclo, materias, materiaFocus, setMateriaFocus }) => {    
     return (
         <div className="column">
             <p className='has-text-weight-bold has-text-centered'>{ciclo}</p>
-            {materias.map((cardMateria, index) => <CardMateria key={cardMateria.identificador} fila={index} columna={columna} materia={cardMateria} />)}
+            {materias.map((materia) =>
+                <CardMateria
+                    key={materia.identificador}
+                    materia={materia}
+                    materiaFocus={materiaFocus}
+                    setMateriaFocus={setMateriaFocus}
+                />)
+            }
         </div>
     )
 }
