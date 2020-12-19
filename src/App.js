@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import Pensum from './data/pensum-base'
 import Columna from './Columna';
 
-const ContenedorPensum = ({ data }) => {
-  const [materiaFocus, setMateriaFocus] = useState({})  
+const ContenedorPensum = ({ data, materiaFocus, setMateriaFocus }) => {
+
   return (
     <div className="columns">
       {
@@ -20,6 +20,7 @@ const ContenedorPensum = ({ data }) => {
 }
 
 const App = () => {
+  const [materiaFocus, setMateriaFocus] = useState({})
   let data = Pensum
 
   if (localStorage.getItem('Pensum') !== null) {
@@ -32,7 +33,10 @@ const App = () => {
   return (
     <div className="content p-5">
       <ContenedorPensum
-        data={data} />
+        data={data}
+        materiaFocus={materiaFocus}
+        setMateriaFocus={setMateriaFocus}
+      />
     </div>
   );
 }

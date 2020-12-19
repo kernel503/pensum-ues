@@ -17,11 +17,11 @@ const obtenerEstiloCard = (materia, materiaFocus) => {
     const { identificador: identificadorFocus, requisito: requisitos } = materiaFocus
     let backgroundContent = 'has-background-grey-lighter'
     let colorText = 'has-text-dark'
-    
+
     if (identificador !== undefined && requisitos !== undefined) {
         if (requisitos.includes(identificador)) {
             backgroundContent = 'has-background-info'
-            colorText = 'has-text-white'            
+            colorText = 'has-text-white'
             if (!aprobada) {
                 localStorage.setItem('materiaDisponibleCursar', JSON.stringify(false))
             }
@@ -29,7 +29,7 @@ const obtenerEstiloCard = (materia, materiaFocus) => {
         if (identificador === identificadorFocus) {
             if (JSON.parse(localStorage.getItem('materiaDisponibleCursar'))) {
                 backgroundContent = 'has-background-primary-dark'
-            } else {                
+            } else {
                 backgroundContent = 'has-background-danger'
             }
             colorText = 'has-text-white'
@@ -38,7 +38,7 @@ const obtenerEstiloCard = (materia, materiaFocus) => {
     return [backgroundContent, colorText]
 }
 
-const onClickCheckbox = (materia) => (event) => {
+const onClickCheckbox = (materia, setMateriaFocus) => (event) => {
     const { identificador } = materia
     let data = JSON.parse(localStorage.getItem('Pensum'))
 
@@ -50,7 +50,7 @@ const onClickCheckbox = (materia) => (event) => {
             }
         })
     })
-
+    setMateriaFocus({})
     localStorage.setItem('Pensum', JSON.stringify(data))
 }
 
@@ -78,7 +78,7 @@ const CardMateria = ({ materia, materiaFocus, setMateriaFocus }) => {
                     <i className="hoverTarget fas fa-eye"></i>
                 </p>
                 <p className="card-footer-item mx-0 my-0 py-3">
-                    <label className="checkbox" onChange={onClickCheckbox(materia)}>
+                    <label className="checkbox" onChange={onClickCheckbox(materia, setMateriaFocus)}>
                         {inputCheckBox(materia)}
                     </label>
                 </p>

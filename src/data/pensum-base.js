@@ -46,7 +46,7 @@ export default [
                 abreviatura: 'FIR115',
                 nombreMateria: 'Física I',
                 aprobada: false,
-                requisito: [1,2]
+                requisito: [1, 2]
             },
             {
                 identificador: 6,
@@ -86,44 +86,44 @@ export default [
         ciclo: 'III',
         materias: [
             {
-                identificador: 5,
+                identificador: 10,
                 unidadValorativa: 4,
-                abreviatura: 'FIR115',
-                nombreMateria: 'Física I',
+                abreviatura: 'FIR215',
+                nombreMateria: 'Física II',
                 aprobada: false,
-                requisito: [1,2]
+                requisito: [5, 6]
             },
             {
-                identificador: 6,
+                identificador: 11,
                 unidadValorativa: 4,
-                abreviatura: 'MAT215',
-                nombreMateria: 'Matematicas II',
+                abreviatura: 'MAT315',
+                nombreMateria: 'Matematicas III',
                 aprobada: false,
-                requisito: [2]
+                requisito: [6]
             },
             {
-                identificador: 7,
+                identificador: 12,
                 unidadValorativa: 4,
-                abreviatura: 'PRN115',
-                nombreMateria: 'Programación I',
+                abreviatura: 'PRN215',
+                nombreMateria: 'Programación II',
                 aprobada: false,
-                requisito: [3]
+                requisito: [7]
             },
             {
-                identificador: 8,
+                identificador: 13,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Manejo de Software para Microcomputadoras',
+                abreviatura: 'PYE115',
+                nombreMateria: 'Probabilidad y Estadística',
                 aprobada: false,
-                requisito: [3]
+                requisito: [6]
             },
             {
-                identificador: 9,
+                identificador: 14,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Historia Social y Económica de El Salvador y C.A.',
+                abreviatura: 'MEC115',
+                nombreMateria: 'Modelos Económicos',
                 aprobada: false,
-                requisito: [4]
+                requisito: [6, 9]
             },
         ]
     },
@@ -131,44 +131,44 @@ export default [
         ciclo: 'IV',
         materias: [
             {
-                identificador: 5,
+                identificador: 15,
                 unidadValorativa: 4,
-                abreviatura: 'FIR115',
-                nombreMateria: 'Física I',
+                abreviatura: 'FIR315',
+                nombreMateria: 'Física III',
                 aprobada: false,
-                requisito: [1,2]
+                requisito: [10]
             },
             {
-                identificador: 6,
+                identificador: 16,
                 unidadValorativa: 4,
-                abreviatura: 'MAT215',
-                nombreMateria: 'Matematicas II',
+                abreviatura: 'MAT315',
+                nombreMateria: 'Matematicas III',
                 aprobada: false,
-                requisito: [2]
+                requisito: [11]
             },
             {
-                identificador: 7,
+                identificador: 17,
                 unidadValorativa: 4,
-                abreviatura: 'PRN115',
-                nombreMateria: 'Programación I',
+                abreviatura: 'ESD115',
+                nombreMateria: 'Estructuras de Datos',
                 aprobada: false,
-                requisito: [3]
+                requisito: [12]
             },
             {
-                identificador: 8,
+                identificador: 18,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Manejo de Software para Microcomputadoras',
+                abreviatura: 'PRN315',
+                nombreMateria: 'Programación III',
                 aprobada: false,
-                requisito: [3]
+                requisito: [12]
             },
             {
-                identificador: 9,
+                identificador: 19,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Historia Social y Económica de El Salvador y C.A.',
+                abreviatura: 'MEP115',
+                nombreMateria: 'Métodos Probabilísticos',
                 aprobada: false,
-                requisito: [4]
+                requisito: [13]
             },
         ]
     },
@@ -176,44 +176,44 @@ export default [
         ciclo: 'V',
         materias: [
             {
-                identificador: 5,
+                identificador: 20,
                 unidadValorativa: 4,
-                abreviatura: 'FIR115',
-                nombreMateria: 'Física I',
+                abreviatura: 'SDU115',
+                nombreMateria: 'Sistemas Digitales',
                 aprobada: false,
-                requisito: [1,2]
+                requisito: [7, 15]
             },
             {
-                identificador: 6,
+                identificador: 21,
                 unidadValorativa: 4,
-                abreviatura: 'MAT215',
-                nombreMateria: 'Matematicas II',
+                abreviatura: 'ANS115',
+                nombreMateria: 'Análisis Numérico',
                 aprobada: false,
-                requisito: [2]
+                requisito: [7, 16]
             },
             {
-                identificador: 7,
+                identificador: 22,
                 unidadValorativa: 4,
-                abreviatura: 'PRN115',
-                nombreMateria: 'Programación I',
+                abreviatura: 'HDP115',
+                nombreMateria: 'Herramientas de Productividad',
                 aprobada: false,
-                requisito: [3]
+                requisito: [9, 17]
             },
             {
-                identificador: 8,
+                identificador: 23,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Manejo de Software para Microcomputadoras',
+                abreviatura: 'SYP115',
+                nombreMateria: 'Sistemas y Procedimientos',
                 aprobada: false,
-                requisito: [3]
+                requisito: [18]
             },
             {
-                identificador: 9,
+                identificador: 24,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Historia Social y Económica de El Salvador y C.A.',
+                abreviatura: 'MOP115',
+                nombreMateria: 'Métodos de Optimización',
                 aprobada: false,
-                requisito: [4]
+                requisito: [19]
             },
         ]
     },
@@ -221,44 +221,44 @@ export default [
         ciclo: 'VI',
         materias: [
             {
-                identificador: 5,
+                identificador: 25,
                 unidadValorativa: 4,
-                abreviatura: 'FIR115',
-                nombreMateria: 'Física I',
+                abreviatura: 'I',
+                nombreMateria: 'Técnica Eléctiva I',
                 aprobada: false,
-                requisito: [1,2]
+                requisito: []
             },
             {
-                identificador: 6,
+                identificador: 26,
                 unidadValorativa: 4,
-                abreviatura: 'MAT215',
-                nombreMateria: 'Matematicas II',
+                abreviatura: 'ARC115',
+                nombreMateria: 'Arquitectura de Computadoras',
                 aprobada: false,
-                requisito: [2]
+                requisito: [20, 21]
             },
             {
-                identificador: 7,
+                identificador: 27,
                 unidadValorativa: 4,
-                abreviatura: 'PRN115',
-                nombreMateria: 'Programación I',
+                abreviatura: 'SIC115',
+                nombreMateria: 'Sistemas Contables',
                 aprobada: false,
-                requisito: [3]
+                requisito: [22]
             },
             {
-                identificador: 8,
+                identificador: 28,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Manejo de Software para Microcomputadoras',
+                abreviatura: 'IFI115',
+                nombreMateria: 'Ingenieria Financiera',
                 aprobada: false,
-                requisito: [3]
+                requisito: [12]
             },
             {
-                identificador: 9,
+                identificador: 29,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Historia Social y Económica de El Salvador y C.A.',
+                abreviatura: 'TSI115',
+                nombreMateria: 'Teoría de sistemas',
                 aprobada: false,
-                requisito: [4]
+                requisito: [23]
             },
         ]
     },
@@ -266,44 +266,44 @@ export default [
         ciclo: 'VII',
         materias: [
             {
-                identificador: 5,
+                identificador: 30,
                 unidadValorativa: 4,
-                abreviatura: 'FIR115',
-                nombreMateria: 'Física I',
+                abreviatura: 'MIP115',
+                nombreMateria: 'Microprogramación',
                 aprobada: false,
-                requisito: [1,2]
+                requisito: [26]
             },
             {
-                identificador: 6,
+                identificador: 31,
                 unidadValorativa: 4,
-                abreviatura: 'MAT215',
-                nombreMateria: 'Matematicas II',
+                abreviatura: 'II',
+                nombreMateria: 'Técnica Eléctiva II',
                 aprobada: false,
-                requisito: [2]
+                requisito: []
             },
             {
-                identificador: 7,
+                identificador: 32,
                 unidadValorativa: 4,
-                abreviatura: 'PRN115',
-                nombreMateria: 'Programación I',
+                abreviatura: 'TAD115',
+                nombreMateria: 'Teoría Administrativa',
                 aprobada: false,
-                requisito: [3]
+                requisito: [27]
             },
             {
-                identificador: 8,
+                identificador: 33,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Manejo de Software para Microcomputadoras',
+                abreviatura: 'DSI115',
+                nombreMateria: 'Diseño de Sistemas I',
                 aprobada: false,
-                requisito: [3]
+                requisito: [27, 29]
             },
             {
-                identificador: 9,
+                identificador: 34,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Historia Social y Económica de El Salvador y C.A.',
+                abreviatura: 'III',
+                nombreMateria: 'Técnica Eléctiva III',
                 aprobada: false,
-                requisito: [4]
+                requisito: []
             },
         ]
     },
@@ -311,44 +311,44 @@ export default [
         ciclo: 'VIII',
         materias: [
             {
-                identificador: 5,
+                identificador: 35,
                 unidadValorativa: 4,
-                abreviatura: 'FIR115',
-                nombreMateria: 'Física I',
+                abreviatura: 'COS115',
+                nombreMateria: 'Comunicaciones I',
                 aprobada: false,
-                requisito: [1,2]
+                requisito: [30]
             },
             {
-                identificador: 6,
+                identificador: 36,
                 unidadValorativa: 4,
-                abreviatura: 'MAT215',
-                nombreMateria: 'Matematicas II',
+                abreviatura: 'SIO115',
+                nombreMateria: 'Sistemas Operativos',
                 aprobada: false,
-                requisito: [2]
+                requisito: [30]
             },
             {
-                identificador: 7,
+                identificador: 37,
                 unidadValorativa: 4,
-                abreviatura: 'PRN115',
-                nombreMateria: 'Programación I',
+                abreviatura: 'ANF115',
+                nombreMateria: 'Análisis Financiero',
                 aprobada: false,
-                requisito: [3]
+                requisito: [28, 32]
             },
             {
-                identificador: 8,
+                identificador: 38,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Manejo de Software para Microcomputadoras',
+                abreviatura: 'DSI215',
+                nombreMateria: 'Diseño de Sistemas II',
                 aprobada: false,
-                requisito: [3]
+                requisito: [33]
             },
             {
-                identificador: 9,
+                identificador: 39,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Historia Social y Económica de El Salvador y C.A.',
+                abreviatura: 'IV',
+                nombreMateria: 'Técnica Eléctiva IV',
                 aprobada: false,
-                requisito: [4]
+                requisito: []
             },
         ]
     },
@@ -356,44 +356,45 @@ export default [
         ciclo: 'IX',
         materias: [
             {
-                identificador: 5,
+                identificador: 40,
                 unidadValorativa: 4,
-                abreviatura: 'FIR115',
-                nombreMateria: 'Física I',
+                abreviatura: 'LPR115',
+                nombreMateria: 'Legislación Profesional',
                 aprobada: false,
-                requisito: [1,2]
+                requisito: [],
+                uv: 120
             },
             {
-                identificador: 6,
+                identificador: 41,
                 unidadValorativa: 4,
-                abreviatura: 'MAT215',
-                nombreMateria: 'Matematicas II',
+                abreviatura: 'RHU115',
+                nombreMateria: 'Recursos Humanos',
                 aprobada: false,
-                requisito: [2]
+                requisito: [32]
             },
             {
-                identificador: 7,
+                identificador: 42,
                 unidadValorativa: 4,
-                abreviatura: 'PRN115',
-                nombreMateria: 'Programación I',
+                abreviatura: 'BAD115',
+                nombreMateria: 'Bases de Datos',
                 aprobada: false,
-                requisito: [3]
+                requisito: [36, 38]
             },
             {
-                identificador: 8,
+                identificador: 43,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Manejo de Software para Microcomputadoras',
+                abreviatura: 'SGI115',
+                nombreMateria: 'Sistemas de Información Gerencial',
                 aprobada: false,
-                requisito: [3]
+                requisito: [38]
             },
             {
-                identificador: 9,
+                identificador: 44,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Historia Social y Económica de El Salvador y C.A.',
+                abreviatura: 'V',
+                nombreMateria: 'Técnica Eléctiva V',
                 aprobada: false,
-                requisito: [4]
+                requisito: []
             },
         ]
     },
@@ -401,44 +402,37 @@ export default [
         ciclo: 'X',
         materias: [
             {
-                identificador: 5,
+                identificador: 45,
                 unidadValorativa: 4,
-                abreviatura: 'FIR115',
-                nombreMateria: 'Física I',
+                abreviatura: 'CPR115',
+                nombreMateria: 'Consultoría Profesional',
                 aprobada: false,
-                requisito: [1,2]
+                requisito: [],
+                uv: 150
             },
             {
-                identificador: 6,
+                identificador: 46,
                 unidadValorativa: 4,
-                abreviatura: 'MAT215',
-                nombreMateria: 'Matematicas II',
+                abreviatura: 'ACC115',
+                nombreMateria: 'Administración de Centros de Cómputo',
                 aprobada: false,
-                requisito: [2]
+                requisito: [41, 42, 43]
             },
             {
-                identificador: 7,
+                identificador: 47,
                 unidadValorativa: 4,
-                abreviatura: 'PRN115',
-                nombreMateria: 'Programación I',
+                abreviatura: 'API115',
+                nombreMateria: 'Administración de Proyectos Informáticos',
                 aprobada: false,
-                requisito: [3]
+                requisito: [37, 43]
             },
             {
-                identificador: 8,
+                identificador: 48,
                 unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Manejo de Software para Microcomputadoras',
+                abreviatura: 'VI',
+                nombreMateria: 'Técnica Eléctiva VI',
                 aprobada: false,
-                requisito: [3]
-            },
-            {
-                identificador: 9,
-                unidadValorativa: 4,
-                abreviatura: 'MSM115',
-                nombreMateria: 'Historia Social y Económica de El Salvador y C.A.',
-                aprobada: false,
-                requisito: [4]
+                requisito: []
             },
         ]
     },
