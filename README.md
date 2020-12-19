@@ -7,5 +7,6 @@ Carga académica para la carrera Ingeniería de Sistemas Informáticos - UES [Pe
 * [ ] Calcular el CUM
 * [ ] Implementación para otras carreras
 
-```Utiliza localStorage para guardar el estado de las materias
+```
+Utiliza localStorage para guardar el estado de las materias
 ```
