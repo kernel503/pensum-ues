@@ -1,0 +1,16 @@
+{
+  "name": "scrapp-puppeter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "src": "node src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "puppeteer": "^10.0.0"
+  }
+}
